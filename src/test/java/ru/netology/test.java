@@ -19,7 +19,7 @@ public class test {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("01.01.20023"))
+                .body("data", equalTo("01.01.2023"))
         ;
     }
 }
